@@ -1,0 +1,31 @@
+.wrapper {
+  margin: 0 auto;
+  width: 940px; }
+
+.nav__menu {
+  width: 620px;
+  background-color: #d7d8d9;
+  padding: 0; }
+.nav__menu-item {
+  display: inline-block;
+  padding: 0 4px 0 15px;
+  line-height: 30px;
+  font-size: 18px;
+  font-family: "PT Sans";
+  color: #333333; }
+
+.slider__slide-img {
+  display: inline-block;
+  vertical-align: top; }
+.slider__text-wrapper {
+  display: inline-block;
+  width: 220px;
+  height: 101px; }
+.slider__header {
+  font-size: 30px;
+  font-family: "PT Serif";
+  color: #c80000;
+  line-height: 1.2;
+  text-align: left; }
+
+/*# sourceMappingURL=index.css.map */
