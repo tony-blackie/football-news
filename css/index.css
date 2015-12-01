@@ -15,6 +15,11 @@
     font-size: 18px;
     font-family: "PT Sans";
     color: #333333; }
+    .nav__menu-item_active {
+      background-color: #333333;
+      color: #FFF;
+      padding: 0 13px 0 13px;
+      text-shadow: #a7a7a7 1px 1px 0; }
 
 .slider {
   width: 630px; }
@@ -79,7 +84,7 @@
     margin: 0 13px 0 0;
     width: 143px;
     vertical-align: top; }
-    .main-news__news-item:last-child {
+    .main-news__news-item_no-margin {
       margin-right: 0; }
   .main-news__item-text {
     margin: 0 0 0 0;
