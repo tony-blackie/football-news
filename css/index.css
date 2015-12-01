@@ -16,16 +16,104 @@
 
 .slider__slide-img {
   display: inline-block;
-  vertical-align: top; }
+  vertical-align: top;
+  margin: 4px 0 0 0; }
 .slider__text-wrapper {
   display: inline-block;
-  width: 220px;
-  height: 101px; }
+  width: 220px; }
 .slider__header {
   font-size: 30px;
+  font-weight: normal;
   font-family: "PT Serif";
   color: #c80000;
   line-height: 1.2;
-  text-align: left; }
+  margin: 12px 0px 0px 16px; }
+.slider__text {
+  font-size: 14px;
+  font-family: "PT Sans";
+  color: #333333;
+  margin: 12px 0px 0px 17px;
+  line-height: 17px; }
+.slider__controls {
+  height: 32px;
+  margin: 34px 0 0 116px;
+  width: 115px; }
+.slider__left {
+  display: inline-block;
+  vertical-align: top; }
+.slider__slide-number {
+  display: inline-block;
+  vertical-align: top;
+  margin: 6px 0 0 5px; }
+.slider__slider-part {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px; }
+.slider__right {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 5px; }
+.slider__bottom-stripe {
+  margin: 0 0 0 1px; }
+
+.main-news__title-section {
+  margin: 0; }
+.main-news__title {
+  display: inline-block;
+  font-size: 24px;
+  font-family: "PT Sans";
+  color: #333333;
+  line-height: 1.25;
+  font-weight: normal;
+  margin: 16px 0 0 2px; }
+.main-news__title-stripe {
+  display: inline-block; }
+.main-news__news-item {
+  display: inline-block;
+  margin: 0 13px 0 0;
+  width: 143px;
+  vertical-align: top; }
+.main-news__item-text {
+  margin: 0 0 0 0;
+  line-height: 14px; }
+
+.other-news-wrapper {
+  margin: 22px 0 0 0; }
+
+.last-news__title-section {
+  margin: 0; }
+.last-news__title {
+  display: inline-block;
+  font-size: 24px;
+  font-family: "PT Sans";
+  color: #333333;
+  line-height: 1.25;
+  font-weight: normal;
+  margin: 16px 0 0 2px; }
+.last-news__title-stripe {
+  display: inline-block; }
+.last-news__list {
+  padding-left: 17px;
+  width: 365px;
+  margin: 0;
+  line-height: 25px;
+  font-size: 14px; }
+
+.newsfeed {
+  margin-top: 10px; }
+  .newsfeed__title-section {
+    margin: 0; }
+  .newsfeed__title {
+    display: inline-block;
+    font-size: 24px;
+    font-family: "PT Sans";
+    color: #333333;
+    line-height: 1.25;
+    font-weight: normal;
+    margin: 16px 0 0 2px; }
+  .newsfeed__title-stripe {
+    display: inline-block; }
+  .newsfeed__top-news-section {
+    margin: 10px 0 0 0; }
 
 /*# sourceMappingURL=index.css.map */
