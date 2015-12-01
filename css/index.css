@@ -2,83 +2,96 @@
   margin: 0 auto;
   width: 940px; }
 
-.nav__menu {
-  width: 620px;
-  background-color: #d7d8d9;
-  padding: 0; }
-.nav__menu-item {
-  display: inline-block;
-  padding: 0 4px 0 15px;
-  line-height: 30px;
-  font-size: 18px;
-  font-family: "PT Sans";
-  color: #333333; }
+.nav {
+  width: 630px; }
+  .nav__menu {
+    width: 620px;
+    background-color: #d7d8d9;
+    padding: 0; }
+  .nav__menu-item {
+    display: inline-block;
+    padding: 0 4px 0 15px;
+    line-height: 30px;
+    font-size: 18px;
+    font-family: "PT Sans";
+    color: #333333; }
 
-.slider__slide-img {
-  display: inline-block;
-  vertical-align: top;
-  margin: 4px 0 0 0; }
-.slider__text-wrapper {
-  display: inline-block;
-  width: 220px; }
-.slider__header {
-  font-size: 30px;
-  font-weight: normal;
-  font-family: "PT Serif";
-  color: #c80000;
-  line-height: 1.2;
-  margin: 12px 0px 0px 16px; }
-.slider__text {
-  font-size: 14px;
-  font-family: "PT Sans";
-  color: #333333;
-  margin: 12px 0px 0px 17px;
-  line-height: 17px; }
-.slider__controls {
-  height: 32px;
-  margin: 34px 0 0 116px;
-  width: 115px; }
-.slider__left {
-  display: inline-block;
-  vertical-align: top; }
-.slider__slide-number {
-  display: inline-block;
-  vertical-align: top;
-  margin: 6px 0 0 5px; }
-.slider__slider-part {
-  display: inline-block;
-  vertical-align: top;
-  margin-left: 10px; }
-.slider__right {
-  display: inline-block;
-  vertical-align: top;
-  margin-left: 5px; }
-.slider__bottom-stripe {
-  margin: 0 0 0 1px; }
+.slider {
+  width: 630px; }
+  .slider__slide-img {
+    display: inline-block;
+    vertical-align: top;
+    margin: 4px 0 0 0; }
+  .slider__text-wrapper {
+    display: inline-block;
+    width: 220px; }
+  .slider__header {
+    font-size: 30px;
+    font-weight: normal;
+    font-family: "PT Serif";
+    color: #c80000;
+    line-height: 1.2;
+    margin: 12px 0px 0px 16px; }
+  .slider__text {
+    font-size: 14px;
+    font-family: "PT Sans";
+    color: #333333;
+    margin: 12px 0px 0px 17px;
+    line-height: 17px; }
+  .slider__controls {
+    height: 32px;
+    margin: 34px 0 0 116px;
+    width: 115px; }
+  .slider__left {
+    display: inline-block;
+    vertical-align: top; }
+  .slider__slide-number {
+    display: inline-block;
+    vertical-align: top;
+    margin: 6px 0 0 5px; }
+  .slider__slider-part {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px; }
+  .slider__right {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px; }
+  .slider__bottom-stripe {
+    margin: 0 0 0 1px; }
 
-.main-news__title-section {
-  margin: 0; }
-.main-news__title {
-  display: inline-block;
-  font-size: 24px;
-  font-family: "PT Sans";
-  color: #333333;
-  line-height: 1.25;
-  font-weight: normal;
-  margin: 16px 0 0 2px; }
-.main-news__title-stripe {
-  display: inline-block; }
-.main-news__news-item {
-  display: inline-block;
-  margin: 0 13px 0 0;
-  width: 143px;
-  vertical-align: top; }
-.main-news__item-text {
-  margin: 0 0 0 0;
-  line-height: 14px; }
+.main-news {
+  width: 630px; }
+  .main-news__title-section {
+    margin: 0; }
+  .main-news__title {
+    display: inline-block;
+    font-size: 24px;
+    font-family: "PT Sans";
+    color: #333333;
+    line-height: 1.25;
+    font-weight: normal;
+    margin: 16px 0 0 2px; }
+  .main-news__title-stripe {
+    display: inline-block; }
+  .main-news__news-item {
+    display: inline-block;
+    margin: 0 13px 0 0;
+    width: 143px;
+    vertical-align: top; }
+    .main-news__news-item:last-child {
+      margin-right: 0; }
+  .main-news__item-text {
+    margin: 0 0 0 0;
+    line-height: 14px; }
 
 .other-news-wrapper {
-  margin: 22px 0 0 0; }
+  margin: 22px 0 0 0;
+  width: 620px; }
+
+.other-news {
+  display: inline-block;
+  width: 396px; }
 
 .last-news__title-section {
   margin: 0; }
@@ -114,6 +127,95 @@
   .newsfeed__title-stripe {
     display: inline-block; }
   .newsfeed__top-news-section {
-    margin: 10px 0 0 0; }
+    margin: 6px 0 0 0; }
+  .newsfeed__top-news-image {
+    display: inline-block; }
+  .newsfeed__top-news-title {
+    display: inline-block; }
+  .newsfeed__top-news-title {
+    vertical-align: top;
+    margin: 5px 0 0 0;
+    width: 275px;
+    font-weight: normal;
+    line-height: 21px; }
+  .newsfeed__list {
+    margin: 0;
+    padding: 0 0 0 18px;
+    line-height: 22px;
+    width: 358px;
+    font-size: 14px; }
+
+.news-videos {
+  display: inline-block;
+  width: 220px;
+  margin: 20px 0 0 0;
+  vertical-align: top; }
+  .news-videos__news-item {
+    margin: 0px 0 20px 0;
+    position: relative;
+    width: 220px; }
+  .news-videos__camera-image {
+    position: absolute;
+    z-index: 3;
+    top: 114px;
+    left: 7px; }
+  .news-videos__item-text {
+    font-size: 18px;
+    line-height: 18px;
+    margin: 0; }
+
+.main-content-wrapper {
+  display: inline-block;
+  width: 630px; }
+
+.video {
+  display: inline-block;
+  width: 298px;
+  vertical-align: top;
+  margin: 0 0 0 8px; }
+  .video__title-section {
+    margin: 0; }
+  .video__left-stripe {
+    display: inline-block;
+    margin: 30px 0 0 0; }
+  .video__title {
+    display: inline-block;
+    font-size: 18px;
+    font-family: "PT Sans";
+    color: #6a0099;
+    font-weight: bold;
+    text-transform: uppercase;
+    vertical-align: top;
+    margin: 19px 0 0 4px; }
+  .video__right-stripe {
+    display: inline-block;
+    margin: 30px 0 0 0; }
+  .video__video-item {
+    position: relative;
+    margin: 8px 0 0 0; }
+  .video__screenshot {
+    display: inline-block; }
+  .video__play-pic {
+    position: absolute;
+    top: 65px;
+    left: 5px; }
+  .video__header {
+    display: inline-block;
+    color: grey;
+    font-size: 14px;
+    font-family: "PT Sans";
+    font-weight: normal;
+    margin: -3px 0 0 8px;
+    vertical-align: top;
+    width: 145px; }
+  .video__bottom-section {
+    margin: 12px 0 0 0;
+    font-size: 18px;
+    font-family: "PT Sans";
+    color: #3d76cc; }
+  .video__show-more {
+    text-decoration: none; }
+  .video__bottom-stripe {
+    vertical-align: top; }
 
 /*# sourceMappingURL=index.css.map */
