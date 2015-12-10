@@ -1,61 +1,66 @@
+body
+  margin: 0
 /*-------------------
   #WRAPPER BLOCK
   ------------------*/
 .wrapper
   margin: 0 auto
-  width: 940px
+  width: 67.1%  // 940 / 1400
 
 /*-------------------
   #NAVIGATION BLOCK
   ------------------*/
 .nav
-  width: 630px
+  width: 100%  // 630 / 940
   &__menu
-    width: 620px
+    width: 65.957446808511%  // 620 / 940
     background-color: #d7d8d9
     padding: 0
 
   &__menu-item
     display: inline-block
-    padding: 0 4px 0 15px
+    padding: 0 4px 0 2.41935483871%
     line-height: 30px
-    font-size: 18px
+    font-size: 1.125rem
     font-family: "PT Sans"
     color: rgb(51, 51, 51)
     &_active
       background-color: #333333
       color: #FFF
-      padding: 0 13px 0 13px
+      padding: 0 2.096774193548%
       text-shadow: #a7a7a7 1px 1px 0
 /*-------------------
   #SLIDER BLOCK
   ------------------*/
 .slider
-  width: 630px
+  width: 100%
 
   &__slide-img
     display: inline-block
     vertical-align: top
-    margin: 4px 0 0 0
+    margin-top: 4px
   &__text-wrapper
     display: inline-block
-    width: 220px
+    width: 34.920634920635%  //220px/630px
   &__header
-    font-size: 30px
+    font-size: 1.875rem
     font-weight: normal
     font-family: "PT Serif"
     color: rgb(200, 0, 0)
     line-height: 1.2
-    margin: 12px 0px 0px 16px
+    margin-top: 12px
+    margin-left: 6.5% // 16px/630px
   &__text
     font-size: 14px
     font-family: "PT Sans"
     color: rgb(51, 51, 51)
-    margin: 12px 0px 0px 17px
+    margin-top: 12px
+    margin-left: 7.5%
     line-height: 17px
   &__controls
     height: 32px
-    margin: 34px 0 0 116px
+    margin-top: 34px
+    margin-left: 56%
     width: 115px
   &__left
     display: inline-block
@@ -64,6 +69,7 @@
     display: inline-block
     vertical-align: top
     margin: 6px 0 0 5px
+
   &__slider-part
     display: inline-block
     vertical-align: top
@@ -78,23 +84,24 @@
   #MAIN NEWS BLOCK
   ------------------*/
 .main-news
-  width: 630px
+  width: 100%
   &__title-section
     margin: 0
   &__title
     display: inline-block
-    font-size: 24px
+    font-size: 1.5rem
     font-family: "PT Sans"
     color: rgb(51, 51, 51)
     line-height: 1.25
     font-weight: normal
-    margin: 16px 0 0 2px
+    margin-top: 16px
+    margin-left: 0.31746031746%   //2px/630px
   &__title-stripe
     display: inline-block
   &__news-item
     display: inline-block
     margin: 0 13px 0 0
-    width: 143px
+    width: 22.698412698413% //143/630
     vertical-align: top
 
     &_no-margin
@@ -107,11 +114,11 @@
   ------------------*/
 .other-news-wrapper
   margin: 22px 0 0 0
-  width: 620px
+  width: 100%
 
 .other-news
   display: inline-block
-  width: 396px
+  width: 63.870967741935%
 /*-------------------
   #LAST NEWS BLOCK
   ------------------*/
@@ -129,11 +136,11 @@
   &__title-stripe
     display: inline-block
   &__list
-    padding-left: 17px
-    width: 365px
+    padding-left: 4.292929292929%
+    width: 58.870967741935%
     margin: 0
     line-height: 25px
-    font-size: 14px
+    font-size: 0.875rem
 /*-------------------
   #NEWSFEED BLOCK
   ------------------*/
@@ -144,7 +151,7 @@
     margin: 0
   &__title
     display: inline-block
-    font-size: 24px
+    font-size: 1.5rem
     font-family: "PT Sans"
     color: rgb(51, 51, 51)
     line-height: 1.25
@@ -161,21 +168,21 @@
   &__top-news-title
     vertical-align: top
     margin: 5px 0 0 0
-    width: 275px
+    width: 44.354838709677%
     font-weight: normal
     line-height: 21px
   &__list
     margin: 0
-    padding: 0 0 0 18px
+    padding-left: 4.675324675325%
     line-height: 22px
-    width: 358px
-    font-size: 14px
+    width: 57.741935483871%
+    font-size: 0.875rem
 /*-------------------
   #NEWS-VIDEOS BLOCK
   ------------------*/
 .news-videos
   display: inline-block
-  width: 220px
+  width: 33%
   margin: 20px 0 0 0
   vertical-align: top
 
@@ -197,16 +204,15 @@
   ------------------*/
 .main-content-wrapper
   display: inline-block
-  width: 630px
+  width: 63%
 /*-------------------
   #VIDEO BLOCK
   ------------------*/
 .video
   display: inline-block
-  width: 298px
+  width: 32%
   vertical-align: top
-  margin: 0 0 0 8px
-
+  margin-left: 2.597402597403%
   &__title-section
     margin: 0
   &__left-stripe
@@ -214,7 +220,7 @@
     margin: 30px 0 0 0
   &__title
     display: inline-block
-    font-size: 18px
+    font-size: 1.1rem
     font-family: "PT Sans"
     color: rgb(106, 0, 153)
     font-weight: bold
@@ -244,10 +250,83 @@
     width: 145px
   &__bottom-section
     margin: 12px 0 0 0
-    font-size: 18px
+    font-size: 1.1rem
     font-family: "PT Sans"
     color: rgb(61, 118, 204)
   &__show-more
     text-decoration: none
   &__bottom-stripe
     vertical-align: top
+
+
+@media screen and (max-width: 1080px)
+  .wrapper
+    width: 100%
+    margin: 0
+    text-align: center
+  .main-content-wrapper
+    width: 100%
+    margin: 0
+    text-align: center
+  .nav
+    display: block
+    width: 100%
+    text-align: center
+    &__menu
+      display: block
+      width: 100%
+      text-align: center
+  .slider
+    display: block
+    width: 100%
+    text-align: center
+  .newsfeed
+    display: block
+    width: 100%
+    text-align: center
+    &__title-section
+      text-align: left
+    &__list
+      display: block
+      width: 100%
+      text-align: left
+    &__top-news-section
+      text-align: left
+  .main-news
+    display: block
+    width: 100%
+    text-align: center
+  .last-news
+    display: block
+    width: 100%
+    text-align: left
+  .other-news-wrapper
+    display: block
+    width: 100%
+    text-align: center
+  .other-news
+    display: block
+    width: 100%
+    text-align: center
+  .news-videos
+    display: block
+    width: 100%
+    text-align: left
+    &__news-item
+      text-align: left
+  .video
+    display: block
+    width: 100%
+    text-align: left
+
+@media screen and (max-width: 1400px)
+  .main-news__title-stripe,
+  .slider__bottom-stripe,
+  .video__right-stripe,
+  .last-news__title-stripe,
+  .video__left-stripe,
+  .newsfeed__title-stripe,
+  .video__bottom-stripe
+    display: none
+  html
+    font-size: 12px
